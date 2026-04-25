@@ -100,7 +100,7 @@ Use caution when applying fixes to critical systems.
 
 ## 👨‍💻 Author
 
-[Your Name]  
+David Griffith  
 Aspiring IT Support / Cybersecurity Professional  
 
 ---
