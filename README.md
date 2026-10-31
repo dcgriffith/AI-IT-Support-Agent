@@ -1,110 +1,57 @@
-# 🧠 Intel Fixer AI  
-AI-Powered IT Troubleshooting & Intel System Fix Assistant  
+# Intel Fixer AI
+### AI-Powered IT Troubleshooting Assistant
 
----
+A web-based AI assistant designed to help diagnose and resolve common Intel-related system issues, including driver problems, performance degradation, and hardware conflicts.
 
-## 🚀 Overview
+## Overview
 
-**Intel Fixer AI** is a web-based AI troubleshooting tool designed to diagnose and resolve Intel-related system issues such as driver errors, performance problems, and hardware conflicts.
+Intel Fixer AI simulates real-world IT support workflows by combining AI analysis with structured troubleshooting guidance. Users can describe issues or paste logs and receive clear explanations, prioritized fix steps, and ready-to-use commands.
 
-This project simulates real-world IT support workflows by combining AI-driven analysis with structured troubleshooting guidance.
+## Key Features
 
----
+- **Issue Analyzer** — Explains driver, graphics, and system errors in plain language
+- **Log & Error Analysis** — Accepts pasted logs or error messages and returns root-cause summaries
+- **Step-by-Step Fix Generator** — Prioritized troubleshooting actions
+- **Command Generator** — PowerShell and system commands with explanations
+- **Guided Troubleshooting** — Interactive, helpdesk-style flow
+- **IT Ticket Assistant** — Summarizes issues and drafts professional responses
 
-## 🎯 Purpose
+## Tech Stack
 
-- Diagnose Intel driver and performance issues  
-- Analyze system errors and logs  
-- Provide step-by-step troubleshooting guidance  
-- Simulate real helpdesk support workflows  
+- Frontend: React (via Lovable)
+- Backend: Supabase
+- AI Logic: Structured prompt-based analysis
+- Platform: Lovable AI app builder
 
----
+## Live Demo
 
-## 🔥 Key Features
+**https://intel-fixer-ai.lovable.app**
 
-### 🛠️ Intel Issue Analyzer
-- Explains driver, graphics, and system errors  
-- Converts technical issues into plain-English explanations  
-
-### 📊 Log & Error Analysis
-- Paste logs or error messages  
-- Outputs summary, root causes, and fixes  
-
-### ⚡ Step-by-Step Fix Generator
-- Structured troubleshooting steps  
-- Prioritized solutions  
-
-### 💻 Command Generator
-- PowerShell & system commands  
-- Includes explanations + copy functionality  
-
-### 🧭 Guided Troubleshooting
-- Interactive, helpdesk-style diagnostics  
-
-### 🧾 IT Ticket Assistant
-- Summarizes issues  
-- Generates professional responses  
-
----
-
-## 🖥️ Tech Stack
-
-- Platform: Lovable (AI app builder)  
-- Frontend: React (auto-generated)  
-- Backend: Supabase (auto-generated)  
-- AI Logic: Prompt-based analysis  
-
----
-
-## 🧪 Example Use Case
+## Example Use Case
 
 **Input:**  
-Intel graphics driver crashing after update  
+Intel graphics driver crashing after update
 
 **Output:**  
 - Root cause explanation  
-- Possible causes  
-- Step-by-step fix instructions  
+- Likely contributing factors  
+- Prioritized step-by-step remediation  
+- Relevant commands with explanations
 
----
+## Project Impact
 
-## 📈 Project Impact
+- Demonstrates practical AI application in IT support
+- Reduces time-to-resolution for common technical issues
+- Showcases user-focused design and clear technical communication
 
-- Reduces troubleshooting time  
-- Improves understanding of technical issues  
-- Demonstrates real-world IT support skills  
+## Future Improvements
 
----
+- Broader hardware vendor support
+- Real-time system diagnostics
+- User session history and saved resolutions
+- Deeper log parsing capabilities
 
-## 🔗 Live Demo
-
-👉 https://intel-fixer-ai.lovable.app  
-
----
-
-## ⚠️ Disclaimer
-
-This tool provides general troubleshooting guidance.  
-Use caution when applying fixes to critical systems.
-
----
-
-## 📌 Future Improvements
-
-- Real-time diagnostics  
-- Expanded hardware support  
-- User history and saved fixes  
-- Advanced log parsing  
-
----
-
-## 👨‍💻 Author
+## Author
 
 David Griffith  
-Aspiring IT Support / Cybersecurity Professional  
-
----
-
-## ⭐ Recruiter Note
-
-This project demonstrates hands-on IT troubleshooting, log analysis, and user-focused problem solving.
+Aspiring IT Support and Cybersecurity professional focused on practical problem-solving and AI-assisted tooling.
